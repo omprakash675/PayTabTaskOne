@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="43.934">
+<testcase classname="Task One" name="Logging into the URL" time="14.086">
+<system-out><![CDATA[Given Entering the url "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And Entering the username "Admin" and password "admin123"...................passed
+Then logging into the profile...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task One" name="Adding the user in Admin portal" time="10.316">
+<system-out><![CDATA[Given Entering into the admin tab and adding user...........................passed
+When Entering and selecting the datas Name "Jadine" Username "ramkumar" and password "Qwerty@25" cpass "Qwerty@25".passed
+Then Saving the data........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task One" name="Logging with new User" time="7.655">
+<system-out><![CDATA[Given Entering the url again "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login".passed
+And Entering the username "ramkumar" and password "Qwerty@25" again.........passed
+Then logging into the profile again.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task One" name="Adding the details in My Info" time="6.168">
+<system-out><![CDATA[Given Entering into the my info tab and adding details......................passed
+When Entering and selecting the datas required Last Name "Jadine"...........passed
+Then Saving all the personal detail.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Task One" name="Uploading the Resume" time="5.338">
+<system-out><![CDATA[Given Selecting the Resume..................................................passed
+Then Saving the Resume......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
